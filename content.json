@@ -1,0 +1,403 @@
+{
+  "person": {
+    "name": "Ke Wang",
+    "role": "Eberly Senior Postdoctoral Fellow",
+    "institution": "University of Rochester",
+    "email": "ke.wang@rochester.edu",
+    "secondaryEmail": "wangke0720@gmail.com",
+    "scholar": "https://scholar.google.com/citations?user=vLK4DKoAAAAJ&hl=en",
+    "linkedin": "https://www.linkedin.com/in/ke-wang-a22177231/",
+    "researchgate": "https://www.researchgate.net/profile/Ke-Wang-166",
+    "bio": "I am Ke Wang, a theoretical physicist studying the correlated phases of quantum matter. My research area is condensed matter physics and ultracold atoms. Both systems exhibit intriguing few- and many-body physics. My research work is dedicated to discovering new physics and exploring mechanisms in these systems.",
+    "quote": "人生之艰难 如不息之长河"
+  },
+  "positions": [
+    {
+      "dates": "09/2026–Present",
+      "institution": "University of Rochester",
+      "role": "Eberly Senior Postdoctoral Fellow",
+      "url": "https://www.sas.rochester.edu/pas/people/postdoctoral-associates/wang-ke/index.html"
+    },
+    {
+      "dates": "09/2022–09/2026",
+      "institution": "University of Chicago",
+      "role": "Kadanoff Postdoctoral Fellow",
+      "url": "https://jamesfranckinstitute.uchicago.edu/people/profile/ke-wang/"
+    },
+    {
+      "dates": "09/2017–09/2022",
+      "institution": "University of Massachusetts Amherst",
+      "role": "Ph.D. in Physics",
+      "url": "https://scholarworks.umass.edu/entities/publication/f99238cd-49a4-4311-87e0-5cc090f1e58a"
+    }
+  ],
+  "research": [
+    {
+      "id": "superconductivity",
+      "title": "Superconductivity",
+      "paragraphs": [
+        "One of my research directions is to understand the properties of superconductivity when they deviate from standard BCS theory.",
+        "Finite-momentum pairing and Higgs modes: Once finite-momentum pairing is turned on, the neutral Higgs channel can couple to the electromagnetic response. Using quantum field theory, we establish the general principles underlying this effect, including Ward identities, and derive experimental signatures of the Higgs mode.",
+        "Pair-density-wave signatures: The stability of a PDW state cannot be established within a simple mean-field treatment alone. To address this, we analyze fluctuations around the mean-field solution and derive a necessary condition for stability. We also predict several distinctive signatures of the PDW state, including a superconductivity-induced Van Hove singularity and anomalous temperature dependence."
+      ],
+      "papers": [
+        {
+          "title": "Higgs amplitude mode in optical conductivity in the presence of a supercurrent: Gauge-invariant formulation with disorder",
+          "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.144512"
+        },
+        {
+          "title": "Anomalous superfluid density in pair-density-wave superconductors",
+          "url": "https://www.nature.com/articles/s41535-025-00843-7"
+        }
+      ]
+    },
+    {
+      "id": "2d-materials",
+      "title": "2D Materials",
+      "paragraphs": [
+        "Two-dimensional materials are rich platforms for realizing interesting emergent and correlated physics.",
+        "Twisted magic-angle graphene: We establish the basic properties of intravalley superconductivity in TBG and reveal its remarkably rich phenomenology, shaped in part by the moiré flat-band nature of the system and by the absence of inversion and time-reversal symmetry in the pairing channel. This simple ansatz is already sufficient to account for many features consistent with a growing body of experimental evidence.",
+        "Our results suggest a PDW/Kekulé superconducting order in TBG. This framework naturally explains several key experimental observations, including triplet pairing, the transition from U-shaped to V-shaped features in the density of states, and Kekulé patterns in STM. The Kekulé state also approaches the BEC regime at modest interaction strengths.",
+        "Dirac fermions in monolayer graphene: The π Berry phase is a hallmark of Dirac fermions. We identify a series of experimental signatures of this property in the presence of a weak magnetic field."
+      ],
+      "papers": [
+        {
+          "title": "Kekulé Superconductivity in Twisted Magic Angle Bilayer Graphene",
+          "url": "https://www.nature.com/articles/s41467-026-74845-9"
+        },
+        {
+          "title": "Persistent Friedel oscillations in graphene due to a weak magnetic field",
+          "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.085418"
+        }
+      ]
+    },
+    {
+      "id": "quantum-simulation",
+      "title": "Quantum Simulation",
+      "paragraphs": [
+        "AMO platforms are naturally suited for simulating quantum phenomena, especially correlated physics.",
+        "Simulation of cosmological evolution: We study analog cosmological dynamics in a nondriven, closed Bose-Einstein condensate in an optical lattice, where a post-quench evolution from an unstable to a stable state realizes counterparts of preheating, reheating, and thermalization.",
+        "Ultracold molecules and nonequilibrium dynamics: Ultracold molecules can realize even richer nonequilibrium dynamics beyond the prethermal behavior found near a broad resonance. Interactions between molecules and atoms can create atom-molecule droplets and nontrivial dynamics of atomic and molecular populations."
+      ],
+      "papers": [
+        {
+          "title": "Simulating cosmological evolution by quantum quench of an atomic Bose-Einstein condensate",
+          "url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.013316"
+        },
+        {
+          "title": "Universal coherent atom-molecule oscillations in the dynamics of the unitary Bose gas near a narrow Feshbach resonance",
+          "url": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.L012025"
+        },
+        {
+          "title": "Droplets of bosons at a narrow resonance",
+          "url": "https://journals.aps.org/pra/abstract/10.1103/zx28-gxlt"
+        }
+      ]
+    },
+    {
+      "id": "quantum-criticality",
+      "title": "Quantum Criticality",
+      "paragraphs": [
+        "One of my research directions is to understand the universal data associated with quantum criticality.",
+        "Time-reversal-symmetry breaking in symmetry-enriched quantum criticality: In one dimension, quantum critical systems in the BDI class can support nontrivial boundary modes protected by time-reversal symmetry. We study how these modes evolve once a time-reversal-breaking field is introduced. It induces a boundary renormalization-group flow from a nontrivial to a trivial quantum critical point, characterized by two universal signatures: the finite-size amplitude and the boundary entropy.",
+        "Nonrelativistic quantum criticality: Among transitions between quantum critical points, there is a class of nonsymmetry-breaking critical phenomena that is intrinsically nonrelativistic, with dynamical exponent z=2 as a representative example. We find that such criticality carries universal data that differ qualitatively from those of conformal field theories."
+      ],
+      "papers": [
+        {
+          "title": "Universal finite-size scaling around tricriticality between topologically ordered, symmetry-protected topological, and trivial phases",
+          "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.101.035410"
+        },
+        {
+          "title": "Universal finite-size amplitude and anomalous entanglement entropy of z=2 quantum Lifshitz criticalities in topological chains",
+          "url": "https://www.scipost.org/SciPostPhys.12.4.134"
+        },
+        {
+          "title": "Quantum z=2 Lifshitz criticality in one-dimensional interacting fermion systems",
+          "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.L081112"
+        }
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "title": "Kekulé Superconductivity in Twisted Magic Angle Bilayer Graphene",
+      "authors": "Ke Wang and K. Levin",
+      "year": 2026,
+      "venue": "Nature Communications (2026)",
+      "url": "https://www.nature.com/articles/s41467-026-74845-9",
+      "doi": "10.1038/s41467-026-74845-9",
+      "arxiv": "https://arxiv.org/abs/2510.06451"
+    },
+    {
+      "title": "Electrodynamic Signatures of Bogoliubov Fermi Surfaces in Moiré Graphene",
+      "authors": "Ke Wang, Qijin Chen, Rufus Boyack, and K. Levin",
+      "year": 2026,
+      "venue": "arXiv:2603.24766 (2026)",
+      "url": "https://arxiv.org/abs/2603.24766",
+      "arxiv": "https://arxiv.org/abs/2603.24766"
+    },
+    {
+      "title": "Anomalous superfluid density in pair-density-wave superconductors",
+      "authors": "Ke Wang, Qijin Chen, Rufus Boyack, and K. Levin",
+      "year": 2026,
+      "venue": "npj Quantum Materials 11, 13 (2026)",
+      "url": "https://www.nature.com/articles/s41535-025-00843-7",
+      "doi": "10.1038/s41535-025-00843-7",
+      "arxiv": "https://arxiv.org/abs/2506.13631"
+    },
+    {
+      "title": "Quantum phases in the interacting generalized Su-Schrieffer-Heeger model",
+      "authors": "Jing-Hua Niu, Jia-Lin Liu, Ke Wang, Shan-Wen Tsai, and Jin Zhang",
+      "year": 2026,
+      "venue": "arXiv:2604.05928 (2026)",
+      "url": "https://arxiv.org/abs/2604.05928",
+      "arxiv": "https://arxiv.org/abs/2604.05928"
+    },
+    {
+      "title": "Quench-induced collective excitations: From breathing to acoustic modes",
+      "authors": "Shicong Song, Ke Wang, Zhengli Wu, Andreas Glatz, K. Levin, and Han Fu",
+      "year": 2026,
+      "venue": "Physical Review A 113, 043308 (2026)",
+      "url": "https://journals.aps.org/pra/abstract/10.1103/qbkk-8z8r",
+      "doi": "10.1103/qbkk-8z8r"
+    },
+    {
+      "title": "Droplets of bosons at a narrow resonance",
+      "authors": "Ke Wang, Thimo Preis, and Dam Thanh Son",
+      "year": 2025,
+      "venue": "Physical Review A 112, 013309 (2025)",
+      "url": "https://journals.aps.org/pra/abstract/10.1103/zx28-gxlt",
+      "doi": "10.1103/zx28-gxlt",
+      "arxiv": "https://arxiv.org/abs/2407.03102"
+    },
+    {
+      "title": "Universal approach to light driven “superconductivity” via preformed pairs",
+      "authors": "Ke Wang, Zhiqiang Wang, Qijin Chen, and K. Levin",
+      "year": 2025,
+      "venue": "npj Quantum Materials 10, 73 (2025)",
+      "url": "https://www.nature.com/articles/s41535-025-00787-y",
+      "doi": "10.1038/s41535-025-00787-y",
+      "arxiv": "https://arxiv.org/abs/2412.05420"
+    },
+    {
+      "title": "Non-Quantum-Critical Routes to Magnetic Superconductivity",
+      "authors": "Zhiqiang Wang, Ke Wang, and K. Levin",
+      "year": 2025,
+      "venue": "arXiv:2506.18996 (2025)",
+      "url": "https://arxiv.org/abs/2506.18996",
+      "arxiv": "https://arxiv.org/abs/2506.18996"
+    },
+    {
+      "title": "Higgs amplitude mode in optical conductivity in the presence of a supercurrent: Gauge-invariant formulation with disorder",
+      "authors": "Ke Wang, Rufus Boyack, and K. Levin",
+      "year": 2025,
+      "venue": "Physical Review B 111, 144512 (2025)",
+      "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.144512",
+      "doi": "10.1103/PhysRevB.111.144512",
+      "arxiv": "https://arxiv.org/abs/2411.18781"
+    },
+    {
+      "title": "Universal coherent atom-molecule oscillations in the dynamics of the unitary Bose gas near a narrow Feshbach resonance",
+      "authors": "Ke Wang, Zhendong Zhang, Shu Nagata, Zhiqiang Wang, and K. Levin",
+      "year": 2025,
+      "venue": "Physical Review Research 7, L012025 (2025)",
+      "url": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.L012025",
+      "doi": "10.1103/PhysRevResearch.7.L012025",
+      "arxiv": "https://arxiv.org/abs/2408.08415"
+    },
+    {
+      "title": "Tunable molecular interactions near an atomic Feshbach resonance: Stability and collapse of a molecular Bose-Einstein condensate",
+      "authors": "Zhiqiang Wang, Ke Wang, Zhendong Zhang, Qijin Chen, Cheng Chin, and K. Levin",
+      "year": 2025,
+      "venue": "Physical Review Research 7, L042069 (2025)",
+      "url": "https://journals.aps.org/prresearch/abstract/10.1103/r2gt-gcyt",
+      "doi": "10.1103/r2gt-gcyt",
+      "arxiv": "https://arxiv.org/abs/2504.09183"
+    },
+    {
+      "title": "Simulating cosmological evolution by quantum quench of an atomic Bose-Einstein condensate",
+      "authors": "Ke Wang, Han Fu, and K. Levin",
+      "year": 2024,
+      "venue": "Physical Review A 109, 013316 (2024)",
+      "url": "https://doi.org/10.1103/PhysRevA.109.013316",
+      "doi": "10.1103/PhysRevA.109.013316",
+      "arxiv": "https://arxiv.org/abs/2304.02131"
+    },
+    {
+      "title": "Stability and dynamics of atom-molecule superfluids near a narrow Feshbach resonance",
+      "authors": "Zhiqiang Wang, Ke Wang, Zhendong Zhang, Shu Nagata, Cheng Chin, and K. Levin",
+      "year": 2024,
+      "venue": "Physical Review A 110, 013306 (2024)",
+      "url": "https://doi.org/10.1103/PhysRevA.110.013306",
+      "doi": "10.1103/PhysRevA.110.013306",
+      "arxiv": "https://arxiv.org/abs/2310.01639"
+    },
+    {
+      "title": "Universal non-Hermitian flow in one-dimensional PT-symmetric quantum criticalities",
+      "authors": "Xin-Chi Zhou and Ke Wang",
+      "year": 2024,
+      "venue": "arXiv:2405.01640 (2024)",
+      "url": "https://arxiv.org/abs/2405.01640",
+      "arxiv": "https://arxiv.org/abs/2405.01640"
+    },
+    {
+      "title": "Quantum z=2 Lifshitz criticality in one-dimensional interacting fermion systems",
+      "authors": "Ke Wang",
+      "year": 2023,
+      "venue": "Physical Review B 108, L081112 (2023)",
+      "url": "https://doi.org/10.1103/PhysRevB.108.L081112",
+      "doi": "10.1103/PhysRevB.108.L081112",
+      "arxiv": "https://arxiv.org/abs/2302.13243"
+    },
+    {
+      "title": "Universal finite-size amplitude and anomalous entanglement entropy of z=2 quantum Lifshitz criticalities in topological chains",
+      "authors": "Ke Wang and Tigran A. Sedrakyan",
+      "year": 2022,
+      "venue": "SciPost Physics 12, 134 (2022)",
+      "url": "https://doi.org/10.21468/SciPostPhys.12.4.134",
+      "doi": "10.21468/SciPostPhys.12.4.134",
+      "arxiv": "https://arxiv.org/abs/2110.08305"
+    },
+    {
+      "title": "Ballistic magnetotransport in graphene",
+      "authors": "Ke Wang and T. A. Sedrakyan",
+      "year": 2022,
+      "venue": "Physical Review B 105, L121114 (2022)",
+      "url": "https://doi.org/10.1103/PhysRevB.105.L121114",
+      "doi": "10.1103/PhysRevB.105.L121114",
+      "arxiv": "https://arxiv.org/abs/2110.03844"
+    },
+    {
+      "title": "Persistent Friedel oscillations in graphene due to a weak magnetic field",
+      "authors": "Ke Wang, M. E. Raikh, and T. A. Sedrakyan",
+      "year": 2021,
+      "venue": "Physical Review B 103, 085418 (2021)",
+      "url": "https://doi.org/10.1103/PhysRevB.103.085418",
+      "doi": "10.1103/PhysRevB.103.085418",
+      "arxiv": "https://arxiv.org/abs/2007.13726"
+    },
+    {
+      "title": "Interaction effects in graphene in a weak magnetic field",
+      "authors": "Ke Wang, M. E. Raikh, and T. A. Sedrakyan",
+      "year": 2021,
+      "venue": "Physical Review B 104, L161102 (2021)",
+      "url": "https://doi.org/10.1103/PhysRevB.104.L161102",
+      "doi": "10.1103/PhysRevB.104.L161102",
+      "arxiv": "https://arxiv.org/abs/2106.07790"
+    },
+    {
+      "title": "Universal finite-size scaling around tricriticality between topologically ordered, symmetry-protected topological, and trivial phases",
+      "authors": "Ke Wang and T. A. Sedrakyan",
+      "year": 2020,
+      "venue": "Physical Review B 101, 035410 (2020)",
+      "url": "https://doi.org/10.1103/PhysRevB.101.035410",
+      "doi": "10.1103/PhysRevB.101.035410",
+      "arxiv": "https://arxiv.org/abs/1911.01512"
+    },
+    {
+      "title": "Theory for the negative longitudinal magnetoresistance in the quantum limit of Kramers Weyl semimetals",
+      "authors": "Bo Wan, Frank Schindler, Ke Wang, Kai Wu, Xiangang Wan, Titus Neupert, and Hai-Zhou Lu",
+      "year": 2018,
+      "venue": "Journal of Physics: Condensed Matter 30, 505501 (2018)",
+      "url": "https://doi.org/10.1088/1361-648X/aaebed",
+      "doi": "10.1088/1361-648X/aaebed",
+      "arxiv": "https://arxiv.org/abs/2008.01953"
+    }
+  ],
+  "activities": [
+    {
+      "year": 2026,
+      "text": "Moved from Chicago to Rochester."
+    },
+    {
+      "year": 2026,
+      "text": "Presented a talk at the Gordon Research Conference on Correlated Electron Systems.",
+      "url": "https://www.grc.org/correlated-electron-systems-conference/2026/"
+    },
+    {
+      "year": 2026,
+      "text": "Gave a Leinweber Seminar on superconductivity in twisted bilayer graphene on May 20.",
+      "url": "https://www.youtube.com/watch?v=hj9A3ub8YFg"
+    },
+    {
+      "year": 2026,
+      "text": "Presented two talks at the March Meeting in Denver."
+    },
+    {
+      "year": 2026,
+      "text": "Gave a talk at Florida Atlantic University on Kekulé superconductivity.",
+      "url": "https://www.physics.fau.edu/documents/ke-wang-abstract-kekule-superconductivity.pdf"
+    },
+    {
+      "year": 2025,
+      "text": "Attended the Simons Foundation Superconductivity Summer School at the University of Minnesota, July 28–August 1.",
+      "url": "https://www.simonssuperconductivity.org/events/2025-summer-school"
+    },
+    {
+      "year": 2025,
+      "text": "Attended the Ultracold Molecules summer program at the Aspen Center for Physics, July 13–27.",
+      "url": "https://aspenphys.org/summer-workshops/#event5562"
+    },
+    {
+      "year": 2025,
+      "text": "Presented two talks at the March Meeting in Anaheim, California, March 16–21."
+    }
+  ],
+  "news": [
+    {
+      "year": 2026,
+      "text": "Kekulé Superconductivity in Twisted Magic Angle Bilayer Graphene, with K. Levin, appears in Nature Communications.",
+      "url": "https://www.nature.com/articles/s41467-026-74845-9"
+    },
+    {
+      "year": 2026,
+      "text": "Our work on superfluid stiffness and Bogoliubov Fermi surfaces in moiré graphene is on arXiv.",
+      "url": "https://arxiv.org/abs/2603.24766"
+    },
+    {
+      "year": 2026,
+      "text": "Quantum phases in the interacting generalized Su-Schrieffer-Heeger model, with Jing-Hua Niu, Jia-Lin Liu, Shan-Wen Tsai, and Jin Zhang, is on arXiv.",
+      "url": "https://arxiv.org/abs/2604.05928"
+    },
+    {
+      "year": 2026,
+      "text": "Quench-induced collective excitations: From breathing to acoustic modes appears in Physical Review A.",
+      "url": "https://journals.aps.org/pra/abstract/10.1103/qbkk-8z8r"
+    },
+    {
+      "year": 2026,
+      "text": "Anomalous superfluid density in pair-density-wave superconductors appears in npj Quantum Materials.",
+      "url": "https://www.nature.com/articles/s41535-025-00843-7"
+    },
+    {
+      "year": 2025,
+      "text": "Tunable molecular interactions near an atomic Feshbach resonance appears in Physical Review Research.",
+      "url": "https://journals.aps.org/prresearch/abstract/10.1103/r2gt-gcyt"
+    },
+    {
+      "year": 2025,
+      "text": "Universal approach to light driven “superconductivity” via preformed pairs appears in npj Quantum Materials.",
+      "url": "https://www.nature.com/articles/s41535-025-00787-y"
+    },
+    {
+      "year": 2025,
+      "text": "Droplets of bosons at a narrow resonance, with Thimo Preis and Dam Thanh Son, appears in Physical Review A.",
+      "url": "https://journals.aps.org/pra/abstract/10.1103/zx28-gxlt"
+    },
+    {
+      "year": 2025,
+      "text": "Our work on magnetism and superconductivity, with Zhiqiang Wang and K. Levin, is on arXiv.",
+      "url": "https://arxiv.org/abs/2506.18996"
+    },
+    {
+      "year": 2025,
+      "text": "Our work on Higgs modes in superconductors appears in Physical Review B.",
+      "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.144512"
+    },
+    {
+      "year": 2025,
+      "text": "Our work on coherent atom-molecule oscillations appears in Physical Review Research.",
+      "url": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.L012025"
+    }
+  ]
+}
