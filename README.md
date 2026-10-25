@@ -21,7 +21,7 @@ Content and portrait are migrated from https://sites.google.com/view/wang-k/home
 
 Publications are sorted by year. Add `"featured": true` to up to three publication records to choose the homepage highlights. Otherwise the first three recent papers are shown.
 
-Edit `style.css` for the design, `site.js` for the menu and year filters, and `portrait.png` for the photo. The website is fully static; its content and links are readable without JavaScript.
+Edit `style.css` for the design, `site.js` for the menu and year filters, and `portrait.svg` for the photo. The website is fully static; its content and links are readable without JavaScript.
 
 ## Hosting
 
