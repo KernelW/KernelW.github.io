@@ -1,0 +1,427 @@
+{
+  "original_pages": [
+    "https://sites.google.com/view/wang-k/home",
+    "https://sites.google.com/view/wang-k/publication",
+    "https://sites.google.com/view/wang-k/research",
+    "https://sites.google.com/view/wang-k/research/superconductivity",
+    "https://sites.google.com/view/wang-k/research/2d-materials",
+    "https://sites.google.com/view/wang-k/research/quantum-simulation",
+    "https://sites.google.com/view/wang-k/research/quantum-criticality"
+  ],
+  "retrieved": "2026-10-25",
+  "cv": null,
+  "cv_note": "No CV file or CV download link appears in the original site navigation, homepage, research pages, or Publication page. No CV invented.",
+  "portrait": {
+    "path": "dist/assets/portrait.jpg",
+    "original_download": "/private/tmp/ke-wang-content/portrait.png",
+    "description": "The image displayed on the original public homepage; downloaded using browser pageAssets and converted to JPEG without cropping. Original dimensions 1020×850."
+  },
+  "publication_notes": [
+    "Exactly the 21 papers listed on the original Publication page. No additional papers added.",
+    "arXiv:2603.24766 title updated in v2 to Electrodynamic Signatures of Bogoliubov Fermi Surfaces in Moiré Graphene; original site retains its earlier title.",
+    "arXiv:2506.18996 current title is Non-Quantum-Critical Routes to Magnetic Superconductivity. It has no journal reference on arXiv; listed as 2025 preprint according to first submission.",
+    "Publication titles use the formal journal title where verified. Initials follow publisher author bylines. Paper descriptions and research text derive from the original site with grammar and capitalization edits only."
+  ],
+  "paper_sources": [
+    {
+      "title": "Kekulé Superconductivity in Twisted Magic Angle Bilayer Graphene",
+      "authors": "Ke Wang and K. Levin",
+      "year": 2026,
+      "venue": "Nature Communications (2026)",
+      "url": "https://www.nature.com/articles/s41467-026-74845-9",
+      "doi": "10.1038/s41467-026-74845-9",
+      "arxiv": "https://arxiv.org/abs/2510.06451"
+    },
+    {
+      "title": "Electrodynamic Signatures of Bogoliubov Fermi Surfaces in Moiré Graphene",
+      "authors": "Ke Wang, Qijin Chen, Rufus Boyack, and K. Levin",
+      "year": 2026,
+      "venue": "arXiv:2603.24766 (2026)",
+      "url": "https://arxiv.org/abs/2603.24766",
+      "arxiv": "https://arxiv.org/abs/2603.24766"
+    },
+    {
+      "title": "Anomalous superfluid density in pair-density-wave superconductors",
+      "authors": "Ke Wang, Qijin Chen, Rufus Boyack, and K. Levin",
+      "year": 2026,
+      "venue": "npj Quantum Materials 11, 13 (2026)",
+      "url": "https://www.nature.com/articles/s41535-025-00843-7",
+      "doi": "10.1038/s41535-025-00843-7",
+      "arxiv": "https://arxiv.org/abs/2506.13631"
+    },
+    {
+      "title": "Quantum phases in the interacting generalized Su-Schrieffer-Heeger model",
+      "authors": "Jing-Hua Niu, Jia-Lin Liu, Ke Wang, Shan-Wen Tsai, and Jin Zhang",
+      "year": 2026,
+      "venue": "arXiv:2604.05928 (2026)",
+      "url": "https://arxiv.org/abs/2604.05928",
+      "arxiv": "https://arxiv.org/abs/2604.05928"
+    },
+    {
+      "title": "Quench-induced collective excitations: From breathing to acoustic modes",
+      "authors": "Shicong Song, Ke Wang, Zhengli Wu, Andreas Glatz, K. Levin, and Han Fu",
+      "year": 2026,
+      "venue": "Physical Review A 113, 043308 (2026)",
+      "url": "https://journals.aps.org/pra/abstract/10.1103/qbkk-8z8r",
+      "doi": "10.1103/qbkk-8z8r"
+    },
+    {
+      "source_label": "Tunable Molecule Scatterings",
+      "title": "Tunable molecular interactions near an atomic Feshbach resonance: Stability and collapse of a molecular Bose-Einstein condensate",
+      "authors": [
+        "Zhiqiang Wang",
+        "Ke Wang",
+        "Zhendong Zhang",
+        "Qijin Chen",
+        "Cheng Chin",
+        "K. Levin"
+      ],
+      "year": 2025,
+      "journal": "Physical Review Research",
+      "volume": "7",
+      "article_number": "L042069",
+      "publication_date": "2025-12-29",
+      "doi": "10.1103/r2gt-gcyt",
+      "doi_url": "https://doi.org/10.1103/r2gt-gcyt",
+      "journal_url": "https://journals.aps.org/prresearch/abstract/10.1103/r2gt-gcyt",
+      "arxiv": "2504.09183",
+      "arxiv_url": "https://arxiv.org/abs/2504.09183",
+      "arxiv_first_submitted": "2025-04-12"
+    },
+    {
+      "source_label": "Light-Induced Superconductivity",
+      "title": "Universal approach to light driven “superconductivity” via preformed pairs",
+      "authors": [
+        "Ke Wang",
+        "Zhiqiang Wang",
+        "Qijin Chen",
+        "K. Levin"
+      ],
+      "year": 2025,
+      "journal": "npj Quantum Materials",
+      "volume": "10",
+      "article_number": "73",
+      "publication_date": "2025-07-03",
+      "doi": "10.1038/s41535-025-00787-y",
+      "doi_url": "https://doi.org/10.1038/s41535-025-00787-y",
+      "journal_url": "https://www.nature.com/articles/s41535-025-00787-y",
+      "arxiv": "2412.05420",
+      "arxiv_url": "https://arxiv.org/abs/2412.05420",
+      "arxiv_first_submitted": "2024-12-06"
+    },
+    {
+      "source_label": "Droplet of Cold Molecules",
+      "title": "Droplets of bosons at a narrow resonance",
+      "authors": [
+        "Ke Wang",
+        "Thimo Preis",
+        "Dam Thanh Son"
+      ],
+      "year": 2025,
+      "journal": "Physical Review A",
+      "volume": "112",
+      "article_number": "013309",
+      "publication_date": "2025-07-18",
+      "doi": "10.1103/zx28-gxlt",
+      "doi_url": "https://doi.org/10.1103/zx28-gxlt",
+      "journal_url": "https://journals.aps.org/pra/abstract/10.1103/zx28-gxlt",
+      "arxiv": "2407.03102",
+      "arxiv_url": "https://arxiv.org/abs/2407.03102",
+      "arxiv_first_submitted": "2024-07-03"
+    },
+    {
+      "source_label": "Magnetism and Superconductivity",
+      "title": "Non-Quantum-Critical Routes to Magnetic Superconductivity",
+      "authors": [
+        "Zhiqiang Wang",
+        "Ke Wang",
+        "K. Levin"
+      ],
+      "year": 2025,
+      "status": "Preprint",
+      "journal": null,
+      "volume": null,
+      "article_number": null,
+      "publication_date": null,
+      "doi": null,
+      "doi_url": null,
+      "arxiv": "2506.18996",
+      "arxiv_url": "https://arxiv.org/abs/2506.18996",
+      "arxiv_doi": "10.48550/arXiv.2506.18996",
+      "arxiv_first_submitted": "2025-06-23",
+      "arxiv_latest_revision": "2026-07-25"
+    },
+    {
+      "source_label": "Higgs mode of Superconductivity",
+      "title": "Higgs amplitude mode in optical conductivity in the presence of a supercurrent: Gauge-invariant formulation with disorder",
+      "authors": [
+        "Ke Wang",
+        "Rufus Boyack",
+        "K. Levin"
+      ],
+      "year": 2025,
+      "journal": "Physical Review B",
+      "volume": "111",
+      "article_number": "144512",
+      "publication_date": "2025-04-28",
+      "doi": "10.1103/PhysRevB.111.144512",
+      "doi_url": "https://doi.org/10.1103/PhysRevB.111.144512",
+      "journal_url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.144512",
+      "arxiv": "2411.18781",
+      "arxiv_url": "https://arxiv.org/abs/2411.18781",
+      "arxiv_first_submitted": "2024-11-27"
+    },
+    {
+      "source_label": "Coherent Oscillations of Molecule",
+      "title": "Universal coherent atom-molecule oscillations in the dynamics of the unitary Bose gas near a narrow Feshbach resonance",
+      "authors": [
+        "Ke Wang",
+        "Zhendong Zhang",
+        "Shu Nagata",
+        "Zhiqiang Wang",
+        "K. Levin"
+      ],
+      "year": 2025,
+      "journal": "Physical Review Research",
+      "volume": "7",
+      "article_number": "L012025",
+      "publication_date": "2025-02-05",
+      "doi": "10.1103/PhysRevResearch.7.L012025",
+      "doi_url": "https://doi.org/10.1103/PhysRevResearch.7.L012025",
+      "journal_url": "https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.7.L012025",
+      "arxiv": "2408.08415",
+      "arxiv_url": "https://arxiv.org/abs/2408.08415",
+      "arxiv_first_submitted": "2024-08-15"
+    },
+    {
+      "original_site_number": 12,
+      "title": "Simulating cosmological evolution by quantum quench of an atomic Bose-Einstein condensate",
+      "authors": [
+        "Ke Wang",
+        "Han Fu",
+        "K. Levin"
+      ],
+      "year": 2024,
+      "journal": "Physical Review A",
+      "journal_abbrev": "Phys. Rev. A",
+      "volume": "109",
+      "article": "013316",
+      "doi": "10.1103/PhysRevA.109.013316",
+      "url": "https://doi.org/10.1103/PhysRevA.109.013316",
+      "arxiv": "2304.02131",
+      "arxiv_url": "https://arxiv.org/abs/2304.02131",
+      "sources": [
+        "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.109.013316",
+        "https://arxiv.org/abs/2304.02131"
+      ],
+      "notes": "Published title expands atomic BEC; arXiv title is Simulating Cosmological Evolution by Quantum Quench of an Atomic BEC."
+    },
+    {
+      "original_site_number": 13,
+      "title": "Stability and dynamics of atom-molecule superfluids near a narrow Feshbach resonance",
+      "authors": [
+        "Zhiqiang Wang",
+        "Ke Wang",
+        "Zhendong Zhang",
+        "Shu Nagata",
+        "Cheng Chin",
+        "K. Levin"
+      ],
+      "year": 2024,
+      "journal": "Physical Review A",
+      "journal_abbrev": "Phys. Rev. A",
+      "volume": "110",
+      "article": "013306",
+      "doi": "10.1103/PhysRevA.110.013306",
+      "url": "https://doi.org/10.1103/PhysRevA.110.013306",
+      "arxiv": "2310.01639",
+      "arxiv_url": "https://arxiv.org/abs/2310.01639",
+      "sources": [
+        "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.013306",
+        "https://arxiv.org/abs/2310.01639"
+      ]
+    },
+    {
+      "original_site_number": 14,
+      "title": "Universal non-Hermitian flow in one-dimensional PT-symmetric quantum criticalities",
+      "authors": [
+        "Xin-Chi Zhou",
+        "Ke Wang"
+      ],
+      "year": 2024,
+      "journal": null,
+      "journal_abbrev": null,
+      "volume": null,
+      "article": null,
+      "doi": "10.48550/arXiv.2405.01640",
+      "url": "https://arxiv.org/abs/2405.01640",
+      "arxiv": "2405.01640",
+      "arxiv_url": "https://arxiv.org/abs/2405.01640",
+      "sources": [
+        "https://arxiv.org/abs/2405.01640"
+      ],
+      "notes": "arXiv page displays no journal reference or publication DOI. DOI listed is the arXiv-issued DOI."
+    },
+    {
+      "original_site_number": 15,
+      "title": "Quantum z=2 Lifshitz criticality in one-dimensional interacting fermion systems",
+      "authors": [
+        "Ke Wang"
+      ],
+      "year": 2023,
+      "journal": "Physical Review B",
+      "journal_abbrev": "Phys. Rev. B",
+      "volume": "108",
+      "article": "L081112",
+      "doi": "10.1103/PhysRevB.108.L081112",
+      "url": "https://doi.org/10.1103/PhysRevB.108.L081112",
+      "arxiv": "2302.13243",
+      "arxiv_url": "https://arxiv.org/abs/2302.13243",
+      "sources": [
+        "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.L081112",
+        "https://arxiv.org/abs/2302.13243"
+      ],
+      "notes": "Letter. Published title ends interacting fermion systems; arXiv title ends interacting fermions."
+    },
+    {
+      "original_site_number": 16,
+      "title": "Universal finite-size amplitude and anomalous entanglement entropy of z=2 quantum Lifshitz criticalities in topological chains",
+      "authors": [
+        "Ke Wang",
+        "Tigran A. Sedrakyan"
+      ],
+      "year": 2022,
+      "journal": "SciPost Physics",
+      "journal_abbrev": "SciPost Phys.",
+      "volume": "12",
+      "issue": "4",
+      "article": "134",
+      "doi": "10.21468/SciPostPhys.12.4.134",
+      "url": "https://doi.org/10.21468/SciPostPhys.12.4.134",
+      "arxiv": "2110.08305",
+      "arxiv_url": "https://arxiv.org/abs/2110.08305",
+      "sources": [
+        "https://www.scipost.org/SciPostPhys.12.4.134/pdf",
+        "https://arxiv.org/abs/2110.08305"
+      ],
+      "notes": "Published PDF supplies Tigran A. Sedrakyan; arXiv credits T. A. Sedrakyan."
+    },
+    {
+      "original_site_number": 17,
+      "title": "Ballistic magnetotransport in graphene",
+      "authors": [
+        "Ke Wang",
+        "T. A. Sedrakyan"
+      ],
+      "year": 2022,
+      "journal": "Physical Review B",
+      "journal_abbrev": "Phys. Rev. B",
+      "volume": "105",
+      "article": "L121114",
+      "doi": "10.1103/PhysRevB.105.L121114",
+      "url": "https://doi.org/10.1103/PhysRevB.105.L121114",
+      "arxiv": "2110.03844",
+      "arxiv_url": "https://arxiv.org/abs/2110.03844",
+      "sources": [
+        "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.105.L121114",
+        "https://arxiv.org/abs/2110.03844"
+      ],
+      "notes": "Letter."
+    },
+    {
+      "original_site_number": 18,
+      "title": "Persistent Friedel oscillations in graphene due to a weak magnetic field",
+      "authors": [
+        "Ke Wang",
+        "M. E. Raikh",
+        "T. A. Sedrakyan"
+      ],
+      "year": 2021,
+      "journal": "Physical Review B",
+      "journal_abbrev": "Phys. Rev. B",
+      "volume": "103",
+      "article": "085418",
+      "doi": "10.1103/PhysRevB.103.085418",
+      "url": "https://doi.org/10.1103/PhysRevB.103.085418",
+      "arxiv": "2007.13726",
+      "arxiv_url": "https://arxiv.org/abs/2007.13726",
+      "sources": [
+        "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.085418",
+        "https://arxiv.org/abs/2007.13726"
+      ]
+    },
+    {
+      "original_site_number": 19,
+      "title": "Interaction effects in graphene in a weak magnetic field",
+      "authors": [
+        "Ke Wang",
+        "M. E. Raikh",
+        "T. A. Sedrakyan"
+      ],
+      "year": 2021,
+      "journal": "Physical Review B",
+      "journal_abbrev": "Phys. Rev. B",
+      "volume": "104",
+      "article": "L161102",
+      "doi": "10.1103/PhysRevB.104.L161102",
+      "url": "https://doi.org/10.1103/PhysRevB.104.L161102",
+      "arxiv": "2106.07790",
+      "arxiv_url": "https://arxiv.org/abs/2106.07790",
+      "sources": [
+        "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.104.L161102",
+        "https://arxiv.org/abs/2106.07790"
+      ],
+      "notes": "Letter."
+    },
+    {
+      "original_site_number": 20,
+      "title": "Universal finite-size scaling around tricriticality between topologically ordered, symmetry-protected topological, and trivial phases",
+      "authors": [
+        "Ke Wang",
+        "T. A. Sedrakyan"
+      ],
+      "year": 2020,
+      "journal": "Physical Review B",
+      "journal_abbrev": "Phys. Rev. B",
+      "volume": "101",
+      "article": "035410",
+      "doi": "10.1103/PhysRevB.101.035410",
+      "url": "https://doi.org/10.1103/PhysRevB.101.035410",
+      "arxiv": "1911.01512",
+      "arxiv_url": "https://arxiv.org/abs/1911.01512",
+      "sources": [
+        "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.101.035410",
+        "https://arxiv.org/abs/1911.01512"
+      ],
+      "notes": "Editors' Suggestion. Published title spells out symmetry-protected topological; arXiv title uses SPT."
+    },
+    {
+      "original_site_number": 21,
+      "title": "Theory for the negative longitudinal magnetoresistance in the quantum limit of Kramers Weyl semimetals",
+      "authors": [
+        "Bo Wan",
+        "Frank Schindler",
+        "Ke Wang",
+        "Kai Wu",
+        "Xiangang Wan",
+        "Titus Neupert",
+        "Hai-Zhou Lu"
+      ],
+      "year": 2018,
+      "journal": "Journal of Physics: Condensed Matter",
+      "journal_abbrev": "J. Phys.: Condens. Matter",
+      "volume": "30",
+      "issue": "50",
+      "article": "505501",
+      "doi": "10.1088/1361-648X/aaebed",
+      "url": "https://doi.org/10.1088/1361-648X/aaebed",
+      "arxiv": "2008.01953",
+      "arxiv_url": "https://arxiv.org/abs/2008.01953",
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/30468150/",
+        "https://arxiv.org/abs/2008.01953"
+      ],
+      "notes": "arXiv upload is 2020, but arXiv journal reference and PubMed both confirm journal publication in 2018."
+    }
+  ]
+}
