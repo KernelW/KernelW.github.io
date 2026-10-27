@@ -50,4 +50,4 @@ node check.mjs
 python3 -m http.server 4173 --bind 127.0.0.1
 ```
 
-Open http://127.0.0.1:4173. The site uses system fonts and does not include analytics or tracking scripts. GitHub Pages may retain operational access logs under its own policies.
+Open http://127.0.0.1:4173. The site uses system fonts. Google Analytics 4 is configured through `googleAnalyticsMeasurementId` in `site.config.json`; rebuild and commit the generated HTML after changing the ID. Clear that setting and rebuild to remove the tracking tag. GitHub Pages may retain operational access logs under its own policies.
