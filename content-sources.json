@@ -17,12 +17,23 @@
     "description": "The image displayed on the original public homepage; downloaded using browser pageAssets and converted to JPEG without cropping. Original dimensions 1020×850."
   },
   "publication_notes": [
-    "Exactly the 21 papers listed on the original Publication page. No additional papers added.",
+    "The initial migration included the 21 papers listed on the original Publication page. Additional papers are added at the site owner's request and documented below.",
     "arXiv:2603.24766 title updated in v2 to Electrodynamic Signatures of Bogoliubov Fermi Surfaces in Moiré Graphene; original site retains its earlier title.",
     "arXiv:2506.18996 current title is Non-Quantum-Critical Routes to Magnetic Superconductivity. It has no journal reference on arXiv; listed as 2025 preprint according to first submission.",
     "Publication titles use the formal journal title where verified. Initials follow publisher author bylines. Paper descriptions and research text derive from the original site with grammar and capitalization edits only."
   ],
   "paper_sources": [
+    {
+      "title": "Chiral Superconductivity Adjacent to a Wigner Crystal in Rhombohedral Graphene",
+      "authors": "Ke Wang",
+      "year": 2026,
+      "venue": "arXiv:2610.33808 (2026)",
+      "url": "https://arxiv.org/abs/2610.33808",
+      "arxiv": "https://arxiv.org/abs/2610.33808",
+      "arxiv_first_submitted": "2026-10-24",
+      "retrieved": "2026-10-26",
+      "notes": "Added at the site owner's request; title, sole author, and submission date verified on arXiv."
+    },
     {
       "title": "Kekulé Superconductivity in Twisted Magic Angle Bilayer Graphene",
       "authors": "Ke Wang and K. Levin",
