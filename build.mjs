@@ -8,6 +8,18 @@ const data = JSON.parse(readFileSync(path.join(root, 'content.json'), 'utf8'));
 const config = JSON.parse(readFileSync(path.join(root, 'site.config.json'), 'utf8'));
 const origin = (process.env.SITE_URL || config.siteUrl).replace(/\/$/, '');
 if (!/^https:\/\//.test(origin)) throw new Error('SITE_URL must be an absolute HTTPS URL.');
+const analyticsId = config.googleAnalyticsMeasurementId || '';
+if (analyticsId && !/^G-[A-Z0-9]+$/.test(analyticsId)) throw new Error('Google Analytics Measurement ID must start with G- and contain only uppercase letters and numbers.');
+const analyticsTag = analyticsId ? `
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=${analyticsId}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '${analyticsId}');
+</script>
+` : '';
 const p = data.person;
 const publications = [...data.publications].sort((a, b) => b.year - a.year);
 const years = [...new Set(publications.map(item => item.year))];
@@ -48,7 +60,7 @@ function page(name, filename, description, body) {
     knowsAbout:data.research.map(topic => topic.title)
   };
   const html = `<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">${filename === '404.html' ? `<base href="${escape(origin)}/">` : ''}
+<html lang="en"><head>${analyticsTag}<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">${filename === '404.html' ? `<base href="${escape(origin)}/">` : ''}
 <title>${escape(titleFor(name))}</title><meta name="description" content="${escape(description)}">
 <meta name="theme-color" content="#f6f5f0"><link rel="canonical" href="${absolute(filename === 'index.html' ? '' : filename)}">
 <meta property="og:type" content="${name === 'About' ? 'profile' : 'website'}"><meta property="og:title" content="${escape(titleFor(name))}"><meta property="og:description" content="${escape(description)}"><meta property="og:url" content="${absolute(filename === 'index.html' ? '' : filename)}"><meta property="og:image" content="${absolute('portrait.svg')}"><meta property="og:site_name" content="Ke Wang"><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary_large_image">
