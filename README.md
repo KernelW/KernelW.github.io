@@ -8,7 +8,7 @@ Website: https://kernelw.github.io/
 
 - Home: biography, recent work, and activities.
 - Research: superconductivity, 2D materials, quantum simulation, and quantum criticality.
-- Publications: 22 papers and preprints, with year filters.
+- Publications: 23 papers and preprints, with year filters.
 - About: academic background, talks, and contact details.
 
 Content and portrait are migrated from https://sites.google.com/view/wang-k/home and its subpages. Primary publication links and migration notes are in `content-sources.json`. A CV PDF was not supplied, so no CV download is included.
