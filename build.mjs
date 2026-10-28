@@ -1,9 +1,11 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 
 const root = path.dirname(fileURLToPath(import.meta.url));
 const output = root;
+const styleVersion = createHash('sha256').update(readFileSync(path.join(root, 'style.css'))).digest('hex').slice(0,12);
 const data = JSON.parse(readFileSync(path.join(root, 'content.json'), 'utf8'));
 const config = JSON.parse(readFileSync(path.join(root, 'site.config.json'), 'utf8'));
 const origin = (process.env.SITE_URL || config.siteUrl).replace(/\/$/, '');
@@ -65,7 +67,7 @@ function page(name, filename, description, body) {
 <meta name="theme-color" content="#f6f5f0"><link rel="canonical" href="${absolute(filename === 'index.html' ? '' : filename)}">
 <meta property="og:type" content="${name === 'About' ? 'profile' : 'website'}"><meta property="og:title" content="${escape(titleFor(name))}"><meta property="og:description" content="${escape(description)}"><meta property="og:url" content="${absolute(filename === 'index.html' ? '' : filename)}"><meta property="og:image" content="${absolute('portrait.svg')}"><meta property="og:site_name" content="Ke Wang"><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary_large_image">
 ${config.googleSiteVerification ? `<meta name="google-site-verification" content="${escape(config.googleSiteVerification)}">` : ''}
-<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css"><script src="site.js" defer></script>
+<link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="style.css?v=${styleVersion}"><script src="site.js" defer></script>
 <script type="application/ld+json">${JSON.stringify(person).replace(/</g,'\\u003c')}</script></head><body>${header(name)}${body}${footer()}</body></html>`;
   writeFileSync(path.join(output, filename), html);
 }
@@ -102,7 +104,7 @@ page('Home','index.html',config.description,home());
 page('Research','research.html','Research interests of Ke Wang: superconductivity, two-dimensional materials, quantum simulation, and quantum criticality.',research());
 page('Publications','publications.html','Publications and preprints by Ke Wang in condensed matter theory and ultracold atomic and molecular physics.',publicationPage());
 page('About','about.html','Academic background, talks, activities, and contact information for Ke Wang at the University of Rochester.',about());
-page('Page not found','404.html','The requested page could not be found.',`<main class="wrap not-found" id="main"><p class="eyebrow">404 / Page not found</p><h1 style="font-size:60px">Let’s return home.</h1><p>This address is unavailable. You can find my research, publications, and contact details from the homepage.</p><a class="button-link" href="index.html">Back to homepage →</a></main>`);
+page('Page not found','404.html','The requested page could not be found.',`<main class="wrap not-found" id="main"><p class="eyebrow">404 / Page not found</p><h1 style="font-size:72px">Let’s return home.</h1><p>This address is unavailable. You can find my research, publications, and contact details from the homepage.</p><a class="button-link" href="index.html">Back to homepage →</a></main>`);
 writeFileSync(path.join(output,'.nojekyll'),'\n');
 writeFileSync(path.join(output,'robots.txt'),`User-agent: *\nAllow: /\nSitemap: ${absolute('sitemap.xml')}\n`);
 writeFileSync(path.join(output,'sitemap.xml'),`<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${['','research.html','publications.html','about.html'].map(file => `<url><loc>${escape(absolute(file))}</loc></url>`).join('')}</urlset>\n`);
