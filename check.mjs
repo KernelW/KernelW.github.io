@@ -11,7 +11,8 @@ for(const file of readdirSync(dist).filter(name=>name.endsWith('.html'))){
   const url=match[1].replace(/&amp;/g,'&');
   if(/^(https?:|mailto:|data:)/.test(url)) continue;
   const [relative,fragment]=url.split('#');
-  const target=relative ? path.join(dist,relative) : path.join(dist,file);
+  const localPath=relative.split('?')[0];
+  const target=localPath ? path.join(dist,localPath) : path.join(dist,file);
   if(!existsSync(target)){errors.push(`${file}: missing ${url}`);continue;}
   if(fragment && target.endsWith('.html')){
    const targetHtml=readFileSync(target,'utf8');
