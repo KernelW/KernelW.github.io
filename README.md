@@ -11,7 +11,7 @@ Website: https://kernelw.github.io/
 - Publications: 23 papers and preprints, with year filters.
 - About: academic background, talks, and contact details.
 
-Content and portrait are migrated from https://sites.google.com/view/wang-k/home and its subpages. Primary publication links and migration notes are in `content-sources.json`. 
+Primary publication links and migration notes are in `content-sources.json`. 
 
 ## Update content
 
