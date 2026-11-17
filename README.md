@@ -19,7 +19,7 @@ Primary publication links and migration notes are in `content-sources.json`.
 2. Run `node build.mjs` and `node check.mjs`. No packages need to be installed.
 3. Commit the updated content and generated HTML to `main`.
 
-Publications are sorted by year. Add `"featured": true` to up to three publication records to choose the homepage highlights. Otherwise the first three recent papers are shown. Set `"showInRecentWork": false` to keep a paper on the Publications page while excluding it from the homepage highlights.
+Publications are sorted by year. Add `"featured": true` to up to five publication records to choose the homepage highlights. Otherwise the first five recent papers are shown. Set `"showInRecentWork": false` to keep a paper on the Publications page while excluding it from the homepage highlights.
 
 Edit `style.css` for the design, `site.js` for the menu and year filters, and `portrait.svg` for the photo. The website is fully static; its content and links are readable without JavaScript.
 
