@@ -130,7 +130,8 @@
       "year": 2026,
       "venue": "arXiv:2610.33808 (2026)",
       "url": "https://arxiv.org/abs/2610.33808",
-      "arxiv": "https://arxiv.org/abs/2610.33808"
+      "arxiv": "https://arxiv.org/abs/2610.33808",
+      "featured": true
     },
     {
       "title": "A Different Perspective on Superconductivity in Crystalline Graphene: Exploiting Energetics",
@@ -148,7 +149,8 @@
       "venue": "Nature Communications (2026)",
       "url": "https://www.nature.com/articles/s41467-026-74845-9",
       "doi": "10.1038/s41467-026-74845-9",
-      "arxiv": "https://arxiv.org/abs/2510.06451"
+      "arxiv": "https://arxiv.org/abs/2510.06451",
+      "featured": true
     },
     {
       "title": "Electrodynamic Signatures of Bogoliubov Fermi Surfaces in Moiré Graphene",
@@ -165,7 +167,8 @@
       "venue": "npj Quantum Materials 11, 13 (2026)",
       "url": "https://www.nature.com/articles/s41535-025-00843-7",
       "doi": "10.1038/s41535-025-00843-7",
-      "arxiv": "https://arxiv.org/abs/2506.13631"
+      "arxiv": "https://arxiv.org/abs/2506.13631",
+      "featured": true
     },
     {
       "title": "Quantum phases in the interacting generalized Su-Schrieffer-Heeger model",
@@ -190,7 +193,8 @@
       "venue": "Physical Review A 112, 013309 (2025)",
       "url": "https://journals.aps.org/pra/abstract/10.1103/zx28-gxlt",
       "doi": "10.1103/zx28-gxlt",
-      "arxiv": "https://arxiv.org/abs/2407.03102"
+      "arxiv": "https://arxiv.org/abs/2407.03102",
+      "featured": true
     },
     {
       "title": "Universal approach to light driven “superconductivity” via preformed pairs",
@@ -216,7 +220,8 @@
       "venue": "Physical Review B 111, 144512 (2025)",
       "url": "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.111.144512",
       "doi": "10.1103/PhysRevB.111.144512",
-      "arxiv": "https://arxiv.org/abs/2411.18781"
+      "arxiv": "https://arxiv.org/abs/2411.18781",
+      "featured": true
     },
     {
       "title": "Universal coherent atom-molecule oscillations in the dynamics of the unitary Bose gas near a narrow Feshbach resonance",
