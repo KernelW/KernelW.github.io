@@ -84,7 +84,7 @@ function heading(label, title, intro) {
 function home() {
   const recent = publications.filter(item => item.showInRecentWork !== false);
   const featured = recent.filter(item => item.featured);
-  const selected = (featured.length ? featured : recent).slice(0,3);
+  const selected = (featured.length ? featured : recent).slice(0,5);
   const activities = data.activities.slice(0,4);
   return `<main id="main"><div class="wrap"><section class="home-hero" aria-labelledby="hero-heading"><div><p class="eyebrow">Condensed matter theory · Ultracold atoms</p><h1 class="hero-name" id="hero-heading">Ke Wang</h1><p class="hero-statement">Exploring correlated<br>quantum matter.</p><p class="hero-role"><strong>${escape(p.role)}</strong><br>${escape(p.institution)}</p><div class="hero-links"><a class="button-link" href="research.html">Explore my research <span aria-hidden="true">↗</span></a>${external(p.scholar,'Google Scholar '+arrow,'text-link')}</div></div><figure class="portrait">${portrait}<figcaption>Theoretical physics · Ke Wang</figcaption></figure></section>
   <section class="section intro-grid" aria-labelledby="intro-heading"><div><p class="section-index">01 / RESEARCH</p><h2 id="intro-heading">Many particles.<br>New possibilities.</h2></div><div><p class="lead">${escape(p.bio)}</p><div class="research-links">${data.research.map(topic => `<a href="research.html#${escape(topic.id)}">${escape(topic.title)} <span aria-hidden="true">↗</span></a>`).join('')}</div></div></section>
